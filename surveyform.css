@@ -1,0 +1,114 @@
+h1 {
+  background: darkblue;
+  padding: 0.1;
+  border-radius: 0.625rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+div {
+  background-image: url("Agri_background.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: bisque;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+/* form */
+
+form {
+  background: skyblue;
+  text-align: center;
+}
+survey-form {
+  display: inline-block;
+  direction: inherit;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  text-align: center;
+}
+.submit-button {
+
+  display: block;
+  width: 10%;
+  padding: 0.75rem;
+  background: darkcyan;
+  color: bisque;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 600px;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: bisque;
+}
+h3 {
+  text-align: center;
+  color: bisque;
+}
+@import url("https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: bisque;
+  margin: 0;
+}
+
+.container {
+max-width: 940px;
+margin-left: auto;
+margin-right: auto;
+}
+.content-area {
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+}
+.box-a {
+  background-color: cadetblue;
+  padding: 30px;
+  border: 3px solid beige;
+  margin-bottom: 20px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.geopo1 {
+  color: blue;
+  border: 3px block beige;
+  background-color: cornsilk;
+  width: fit-content;
+  margin-left: 40px;
+}
+.geopo2 {
+  color: blue;
+  border: 3px block beige;
+  background-color: cornsilk;
+  width: fit-content;
+  margin: 20px 40px;
+}
+.main {
+  width: 50%;
+  float: left;
+}
+.sidebar {
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+}

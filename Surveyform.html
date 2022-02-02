@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="surveyform.css" type="text/css" />
+    <h1>
+      <title id="title">Emmanuel Umoh Survey form</title>
+    </h1>
+  </head>
+  <body
+    style="
+      background: url(Background.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+  <div class="container">
+    <h1>Engr. Emmanuel Okotie Umoh Survey Form</h1>
+    <div class="content-area">
+    <h3 style="color: blueviolet;">The world is yours for the taking...</h3>
+    <p id="description" style="color: rgb(12, 61, 6); background-color: honeydew; border: 3px solid blue;">
+      This is for anyone who want to partake in the special grant Engr. Emmanuel
+      Okotie Umoh is offering to eligible SMEs. Take your time to fill the form
+      below and ensure you accurately fill it because there'll be no room for
+      correction after you data is recieved. have a great experience and best of
+      luck.
+    </p>
+    </div>
+  </div>
+  <div class="main">
+  <div class="box-a">
+    <form id="survey-form" class="survey-form" style="color: blue;">
+      <label for="name">Name:</label>
+      <input
+        id="name-label"
+        type="text"
+        name="first&lastname"
+        placeholder="Enter your full name"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        id="email-label"
+        type="email"
+        placeholder="Enter your email address"
+      />
+      <br />
+      <label for="id-number">ID Number</label>
+      <input
+        id="id-number-label"
+        type="text"
+        min="10"
+        step="5"
+        max="13"
+        placeholder="Enter your mobile phone number"
+      />
+      <br />
+      <label for="Grant-amount" id="dropdown-label">Choose grant amount</label>
+      <select name="Grant-amount" id="Grant-amount">
+        <option value="5000dollars">&#36;5,000</option>
+        <option value="10000dollars">&#36;10,000</option>
+        <option value="15000dollars">&#36;15,000</option>
+        <option value="20000dollars">&#36;20,000</option>
+        <option value="25000dollars">&#36;25,000</option>
+      </select>
+    </div>
+  </div>
+    <div class="sidebar">
+      <div class="geopo1">
+        <fieldset>
+          <legend>
+            Which Geopolitical zone in Nigeria is your business located?
+          </legend>
+          <input type="radio" id="NE" name="GPzone" value="bizloc-1" /><label
+            for="NE"
+            >North-East</label
+          >
+          <input type="radio" id="NW" name="GPzone" value="bizloc-2" /><label
+            for="NW"
+            >North-West</label
+          >
+          <input type="radio" id="NC" name="GPzone" value="bizloc-3" /><label
+            for="NC"
+            >North-Central</label
+          >
+          <input type="radio" id="SE" name="GPzone" value="bizloc-4" /><label
+            for="SE"
+            >South-East</label
+          >
+          <input type="radio" id="SS" name="GPzone" value="bizloc-5" /><label
+            for="SS"
+            >South-South</label
+          >
+          <input type="radio" id="SW" name="GPzone" value="bizloc-6" /><label
+            for="SW"
+            >South-West</label
+          >
+        </fieldset>
+      </div>
+      </div>
+      <div class="sidebar">
+        <div class="geopo2">
+          <fieldset>
+            <legend>
+              What aspect of Agriculture are you interested in? (Check all boxes
+              that apply)
+            </legend>
+            <input
+              type="checkbox"
+              id="Fishing"
+              name="agricaspect"
+              value="aspect1"
+            /><label for="breakfast">Fishing</label>
+            <input
+              type="checkbox"
+              id="Plantain"
+              name="agricaspect"
+              value="aspect2"
+            /><label for="bruch">Plantain Plantation</label>
+              <input
+              type="checkbox"
+              id="Cassava"
+              name="agricaspect"
+              value="aspect3"
+              /><label for="lunch" lunch>Cassava plantation</label>
+            <input
+              type="checkbox"
+              id="Poultry"
+              name="agricaspect"
+              value="aspect4"
+            /><label for="dinner">Poultry</label>
+            </fieldset>
+        </div>
+      </div>
+      <input class="submit-button" type="Submit" value="Submit"/>
+    </form>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat oluptate
+      eum modi, repellendus natus impedit. Adipisci tenetur nisi distinctio
+      optio cumque totam ipsam eaque quia, consequatur provident a qui.
+      Inventore?
+    </div>
+    <footer>&copy;2021 Engr. Emmanuel Okotie Umoh</footer>
+  </body>
+</html>
